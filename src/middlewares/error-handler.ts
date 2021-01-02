@@ -8,7 +8,7 @@ export const errorHandler = (
   next: NextFunction
 ) => {
   if (err instanceof CustomError)
-    res.status(err.statusCode).send({ errors: err.arrangeErrors() });
+    return res.status(err.statusCode).send({ errors: err.arrangeErrors() });
 
   console.error(err);
   res.status(400).send({ errors: [{ message: 'Somethig went wrong' }] });
