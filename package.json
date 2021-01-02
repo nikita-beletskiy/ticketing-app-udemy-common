@@ -1,6 +1,6 @@
 {
   "name": "@bniki-tickets/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common NPM library for ticketing-app-udemy project (https://github.com/nikita-beletskiy/ticketing-app-udemy).",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
